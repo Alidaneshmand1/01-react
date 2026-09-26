@@ -18,6 +18,14 @@ console.log(age);
 const car = obj[2]
 console.log(car);
 
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+
+};
+
+let {firstName , LastName } = person
+document.querySelector("#root").innerHTML = firstName ;
 
 
 }
